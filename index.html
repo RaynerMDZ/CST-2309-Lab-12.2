@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Lake Landscaping</title>
+
+    <script type="text/javascript">
+        <!--
+        function scrollColor() {
+            styleObject = document.getElementsByTagName('html')[0].style;
+            styleObject.scrollbarFaceColor = "#006600";
+            styleObject.scrollbarTrackColor = "#00aa00";
+        }
+
+        function loadInfo(myForm) {
+            let menuSelect = myForm.Menu.selectedIndex;
+            let menuUrl = myForm.Menu.options[menuSelect].value + ".html";
+            window.location = menuUrl;
+        }
+        -->
+    </script>
+
+    <style type="text/css">
+        <!--
+            hr {
+                color: #006633;
+            }
+
+            body {
+                background-image: url("assets/chapter09bkgrnd.jpg");
+            }
+        -->
+    </style>
+</head>
+<body onload="scrollColor()">
+
+    <table width="800" border="0" align="center" cellpadding="2">
+        <tr>
+            <td width="792">
+                <div align="center">
+                    <p><img src="assets/chapter09banner.jpg" alt="Landscaping banner" width="800" height="150"></p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <hr size="5" />
+                <p style="margin-left: 10%;">
+                    <script type="text/javascript">
+                        <!--
+                            var today = new Date();
+                            var dayOfWeek = today.toLocaleString();
+                            dayLocate = dayOfWeek.indexOf(" ");
+                            weekDay = dayOfWeek.substring(0, dayLocate);
+                            newDay = dayOfWeek.substring(dayLocate);
+                            dateLocate = newDay.indexOf(",");
+                            monthDate = newDay.substring(0, dateLocate + 1);
+                            yearLocate = dayOfWeek.indexOf("2020");
+                            year = dayOfWeek.substr(yearLocate, 4);
+
+                            var springDate = new Date("March 21", "2021");
+                            var daysToGo = springDate.getTime() - today.getTime();
+                            var daysToSpring = Math.ceil(daysToGo / (1000 * 60 * 60 * 24));
+
+                            document.write("<p style=margin-left: 10%; font-family: Arial, sans serif; font-weight: bold; font-size: 14;>Today is " + monthDate + " " + weekDay +  " " + year + ", that leaves only " + daysToSpring + " days until the start of sprig.</p>");
+                            document.write("<br />Spring is the time to prepare your landscape for new growth of flowers and lawns.");
+                            document.write("<br /> Call us not at (221) 555-9100 for a free consultation and free estimate.");
+                    </script>
+                </p>
+                <hr size="5" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius corporis consectetur aut eaque, dolores, aspernatur in, odio quidem excepturi vel placeat? Ex accusamus dicta voluptates ab exercitationem! Amet, expedita labore?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores accusantium assumenda accusamus neque, dignissimos voluptatum tempore aspernatur ex cum dicta quaerat aut nostrum. Expedita optio aliquid cupiditate vitae natus.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore doloribus repudiandae suscipit excepturi dolorem vel adipisci, in assumenda repellat eligendi sint voluptas cupiditate. Iusto nulla, molestias eum nemo deserunt sapiente.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, id. Fuga numquam libero consequuntur laudantium veniam, sequi sit dicta! Placeat, incidunt. Quod explicabo qui placeat obcaecati blanditiis inventore in quia.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <form action="" name="infomenu">
+                    <p align="left" style="font-weight: bolder;">
+                        Select an item from the list to get more information about using stones, flowers, or general design principles:
+                        <hr />
+                        <select name="Menu" id="" onchange="loadInfo(this.form)">
+                            <option value="westlake">Select an information item</option>
+                            <option value="stones">Rocks and Stones</option>
+                            <option value="flowers">Using Flowers</option>
+                            <option value="principles">Landscape Design Principles</option>
+                        </select>
+                    </p>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <script type="text/javascript">
+                <!--
+                document.write("<p style='margin-left: 10%; font-family: Arial, sans serif; font-size: xx-small; color=#006600'></p>");
+                document.write("West Lake Landscaping, Copyright 2009-2020.");
+                document.write("<br />This document was last modified " + document.lastModified);
+                -->
+                </script>
+            </td>
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>
